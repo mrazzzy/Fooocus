@@ -84,7 +84,7 @@ If you already have these files, you can copy them to the above locations to spe
 
 Note that if you see **"MetadataIncompleteBuffer" or "PytorchStreamReader"**, then your model files are corrupted. Please download models again.
 
-Below is a test on a relatively low-end laptop with **16GB System RAM** and **6GB VRAM** (Nvidia 3060 laptop). The speed on this machine is about 1.35 seconds per iteration. Pretty impressive – nowadays laptops with 3060 are usually at very acceptable price.
+Below is a test on a relatively low-end laptop with **32GB System RAM** and **16GB VRAM** (Nvidia 3060 laptop). The speed on this machine is about 1.35 seconds per iteration. Pretty impressive – nowadays laptops with 3060 are usually at very acceptable price.
 
 ![image](https://github.com/lllyasviel/Fooocus/assets/19834515/938737a5-b105-4f19-b051-81356cb7c495)
 
@@ -107,7 +107,7 @@ Note that the [minimal requirement](#minimal-requirement) for different platform
 
 See also the common problems and troubleshoots [here](troubleshoot.md).
 
-### Colab
+### Colab:
 
 (Last tested - 2024 Aug 12 by [mashb1t](https://github.com/mashb1t))
 
@@ -125,7 +125,7 @@ Using `--always-high-vram` shifts resource allocation from RAM to VRAM and achie
 
 Thanks to [camenduru](https://github.com/camenduru) for the template!
 
-### Linux (Using Anaconda)
+### Linux (Using Anaconda):
 
 If you want to use Anaconda/Miniconda, you can
 
@@ -147,7 +147,7 @@ Or, if you want to open a remote port, use
 
 Use `python entry_with_update.py --preset anime` or `python entry_with_update.py --preset realistic` for Fooocus Anime/Realistic Edition.
 
-### Linux (Using Python Venv)
+### Linux (Using Python Venv):
 
 Your Linux needs to have **Python 3.10** installed, and let's say your Python can be called with the command **python3** with your venv system working; you can
 
@@ -169,7 +169,7 @@ Or, if you want to open a remote port, use
 
 Use `python entry_with_update.py --preset anime` or `python entry_with_update.py --preset realistic` for Fooocus Anime/Realistic Edition.
 
-### Linux (Using native system Python)
+### Linux (Using native system Python):
 
 If you know what you are doing, and your Linux already has **Python 3.10** installed, and your Python can be called with the command **python3** (and Pip with **pip3**), you can
 
